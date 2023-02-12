@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Printer">
+      <UniqueIdentifier>{ca45b4d8-98ac-44bf-9966-36e4daada894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Create">
+      <UniqueIdentifier>{e8692bae-d16a-421d-b573-d3bf5dc13e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Create">
+      <UniqueIdentifier>{4467ec21-26c2-4457-ac09-c0078a1240d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Printer">
+      <UniqueIdentifier>{2cfe60af-10db-4ce4-a0b1-8b46c2fecc5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InsideFoldeToFormats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICreator.cpp">
+      <Filter>Resource Files\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONCreator.cpp">
+      <Filter>Resource Files\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="TXTCreator.cpp">
+      <Filter>Resource Files\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLCreator.cpp">
+      <Filter>Resource Files\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONPrinter.cpp">
+      <Filter>Resource Files\Printer</Filter>
+    </ClCompile>
+    <ClCompile Include="TXTPrinter.cpp">
+      <Filter>Resource Files\Printer</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLPrinter.cpp">
+      <Filter>Resource Files\Printer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectoryObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrinter.h">
+      <Filter>Header Files\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="TXTPrinter.h">
+      <Filter>Header Files\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONPrinter.h">
+      <Filter>Header Files\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="ICreator.h">
+      <Filter>Header Files\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="TXTCreator.h">
+      <Filter>Header Files\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONCreator.h">
+      <Filter>Header Files\Create</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

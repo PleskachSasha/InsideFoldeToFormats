@@ -1,0 +1,3 @@
+﻿  InsideFoldeToFormats.cpp
+D:\Programming\InsideFoldeToFormats\InsideFoldeToFormats\TXTPrinter.h(35,40): warning C4101: 'e': unreferenced local variable
+  InsideFoldeToFormats.vcxproj -> D:\Programming\InsideFoldeToFormats\x64\Debug\InsideFoldeToFormats.exe
